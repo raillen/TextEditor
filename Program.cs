@@ -2,7 +2,7 @@
 
 Menu.ShowMenu();
 
-short option = short.Parse(Menu.Option);
+var option = byte.Parse(Console.ReadLine());
 
 switch (option)
 {
